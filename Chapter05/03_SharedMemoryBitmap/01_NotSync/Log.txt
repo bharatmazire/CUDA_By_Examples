@@ -1,0 +1,41 @@
+In WM_CREATE 
+In WM_SETFOCUS 
+In WM_SIZE 
+IN : resize() 
+OUT : resize() 
+IN : initialize() 
+IN : initialize() FOR VERTEX SHADER 
+IN : initialize() done upto glCreateShader() 
+IN : initialize() done upto glShaderSource() 
+IN : initialize() done upto glCompileShader() 
+IN : initialize() done upto 1st glGetShaderiv() 
+IN : initialize() FOR FRAGMENT SHADER 
+IN : initialize() done upto glCreateShader() 
+IN : initialize() done upto glShaderSource() 
+IN : initialize() done upto glCompileShader() 
+IN : initialize() done upto 1st glGetShaderiv() 
+IN : initialize() FOR SHADER PROGRAM 
+IN : initialize() done upto glCreateProgram() 
+IN : initialize() done upto glAttachShader() for vertex shader 
+IN : initialize() done upto glAttachShader() for fragment shader 
+IN : initialize() done upto glBindAttribLocation() 
+IN : initialize() done upto glLinkProgram() 
+IN : initialize() done upto 1st glGetProgramiv() 
+IN : resize() 
+OUT : resize() 
+OUT : initialize() 
+Initialization Successed 
+In : ToggleFullScreen() 
+In WM_SIZE 
+IN : resize() 
+OUT : resize() 
+OUT : ToggleFullScreen() 
+In WM_KEYDOWN 
+In WM_KILLFOCUS 
+In WM_DESTROY 
+IN : uninitialize() 
+In WM_SIZE 
+IN : resize() 
+OUT : resize() 
+Log File is Closed !!
+
