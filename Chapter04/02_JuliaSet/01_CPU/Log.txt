@@ -31,6 +31,10 @@ IN : resize()
 OUT : resize() 
 OUT : ToggleFullScreen() 
 In WM_KEYDOWN 
+In WM_KEYDOWN 
+In WM_KILLFOCUS 
+In WM_SETFOCUS 
+In WM_KEYDOWN 
 In WM_KILLFOCUS 
 In WM_DESTROY 
 IN : uninitialize() 

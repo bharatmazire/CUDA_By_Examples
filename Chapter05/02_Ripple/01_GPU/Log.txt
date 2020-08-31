@@ -31,11 +31,3 @@ IN : resize()
 OUT : resize() 
 OUT : ToggleFullScreen() 
 In WM_KEYDOWN 
-In WM_KILLFOCUS 
-In WM_DESTROY 
-IN : uninitialize() 
-In WM_SIZE 
-IN : resize() 
-OUT : resize() 
-Log File is Closed !!
-
